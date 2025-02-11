@@ -2,25 +2,31 @@
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+letnumber1=12
+letnumber2=6
+if(number1>number2){console.log(seilnumber1èmaggioredinumber2)}
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+if(number1 === 5){console.log(uqual)}else{console.log(notequal)}
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+if(number2%5){console.log(notdivisible)}
+
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+if(number2 === 8) 
+  {console.log (equal)}
+else(number2 += 8) 
+{console.log ("not eigth")}
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
@@ -28,7 +34,13 @@
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let totalShopping = 70
+if(totalShopping ===50) 
+  {console.log("gratis")}
+else(totalShopping < 50) 
+{console.log("10")}
+
+
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
@@ -43,13 +55,19 @@
   Alla fine mostra il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let number3 = 3
+let number4 = 6
+let number5 = 10
+const elenco=[3, 6, 10]
+
+
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let hi = 10
+console.log(typeof 10)
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
@@ -79,30 +97,53 @@ const me = {
   name: 'John',
   lastName: 'Doe',
   skills: ['javascript', 'html', 'css'],
+  city: "Toronto"
 }
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+
 
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+delete me.lastName
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
-
+delete me.skills[2]
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-
+const ar = {
+  fed1 : undefined,
+  fed2 : undefined,
+  fed3 : undefined,
+  fed4 : undefined,
+  fed5 : undefined,
+  fed6 : undefined,
+  fed7 : undefined,
+  fed8 : undefined,
+  fed9 : undefined,
+  fed10 : undefined,
+}
+ Int.ar=[
+  fed1 = 1,
+  fed2 = 2,
+  fed3 = 3,
+  fed4 = 4,
+  fed5 = 5,
+  fed6 = 6,
+  fed7 = 7,
+  fed8 = 8,
+  fed9 = 9,
+  fed10 = 10,
+ ]
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+ar.fed10[10]= 100
